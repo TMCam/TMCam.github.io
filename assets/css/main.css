@@ -1602,3 +1602,6 @@ body section#banner div.inner header h1 {
 	text-decoration: bold;
 	font-weight: bolder;
 }
+
+::-webkit-scrollbar {
+    display: none;      /*pour cacher la scrollbar mais elle marche encore*/
