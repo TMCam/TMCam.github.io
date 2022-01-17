@@ -1028,3 +1028,9 @@ body section#banner div.inner header h1 {
 
 ::-webkit-scrollbar {
     display: none;      /*pour cacher la scrollbar mais elle marche encore*/
+}
+
+body {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+}
