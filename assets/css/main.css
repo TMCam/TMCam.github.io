@@ -1031,6 +1031,6 @@ body section#banner div.inner header h1 {
 }
 
 body {
-  -webkit-user-select: none;  /* Chrome all / Safari all */
-  -moz-user-select: none;     /* Firefox all */
+  -webkit-user-select: none;  /* Chrome / Safari */
+  -moz-user-select: none;     /* Firefox */
 }
