@@ -1,0 +1,194 @@
+/* BG/Header */
+html {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.7),
+		rgba(0, 0, 0, 0.7)
+	),
+	url('../img/Background.jpg');
+	background-size: 100%;
+	font-family: "Poppins", sans-serif;
+}
+
+.home img {
+	border: 2px solid;
+	border-radius: 45px;
+	text-align: center;
+	padding: 10px 10px;
+	background-color: #3359d6;
+	border-color: #3359d6;
+	transition: 0.5s;
+}
+
+.home img:hover {
+	box-shadow: inset 150px 0 #879fed;
+	border-color: #879fed;
+}
+
+.header {
+	background-color: rgba(255, 255, 255, 0.05);
+	border-radius: 30px;
+	padding: 10px 10px;
+	position: sticky;
+	top: 10px;
+}
+
+.header .titre {
+	display: inline-block;
+	padding-left: 45%;
+	padding-top: 1.5%;
+	color: white;
+	font-size: 30px;
+}
+
+/* index.html */
+
+ul.button{
+	list-style: none;
+	text-align: center;
+}
+
+li.li {
+	padding: 50px;
+}
+
+.slide {
+	text-decoration: none;
+	border: 2px solid;
+	border-radius: 30px;
+	padding: 20px 45px;
+	transition: 0.5s;
+	color: #d5d5f7;
+	box-shadow: inset 0 0 #0f0f69;
+	border-color: #0f0f69;
+}
+
+.slide:hover {
+	color: #d5d5f7;
+	border-color: #13138f;
+	box-shadow: inset 150px 0 0 #13138f;
+}
+
+.light {
+	text-decoration: none;
+	border: 2px solid;
+	border-radius: 30px;
+	padding: 20px 45px;
+	transition: 0.4s;
+	color: #d5d5f7;
+	border-color: #53ed8c;
+	background-color: rgba(11, 140, 46, 0.09);
+}
+
+.light:hover {
+	background-color: rgba(11, 140, 46, 0.5);
+}
+
+.sombre {
+	text-decoration: none;
+	border: 2px solid;
+	border-radius: 30px;
+	padding: 15px 40px;
+	transition: 0.4s;
+	color: #850b2f;
+	border-color: #850b2f;
+	background-color: rgba(207, 64, 107, 0.09);
+}
+
+.sombre:hover {
+	padding: 20px 45px;
+}
+
+.transp {
+	text-decoration: none;
+	border: 2px solid;
+	border-radius: 30px;
+	padding: 15px 35px;
+	transition: 0.4s;
+	color: #d5d5f7;
+	border-color: #dba716;
+	background-color: rgba(245, 197, 66, 0.09);
+}
+
+.transp:hover {
+	padding: 20px 40px;
+}
+
+/* slide.html */
+
+.slid {
+	color: whitesmoke;
+	font-size: 25px;
+}
+
+.slidiv {
+	padding-top: 5%;
+	padding-left: 40%;
+}
+
+.slider {
+	display: flex;
+}
+
+/* light.html */
+
+.lightp {
+	color: whitesmoke;
+	font-size: 25px;
+}
+
+.lightdiv {
+	padding-top: 5%;
+	padding-left: 40%;
+}
+
+.lightp {
+	display: flex;
+}
+
+/* bgsombre.html */
+
+.sombrep {
+	color: whitesmoke;
+	font-size: 25px;
+}
+
+.sombrediv {
+	padding-top: 15%;
+	padding-left: 40%;
+}
+
+.sombrep {
+	display: flex;
+}
+
+/* transp.html */
+
+.htmlcssdiv {
+	display: flex;
+	padding-top: 10%;
+	padding-left: 10%;
+}
+
+.transpdiv1 {
+	max-width: 1000px;
+}
+
+.transpdiv2 {
+	border-color: rgba(26, 199, 55, 0.5);
+	max-width: 300px;
+	padding-left: 5%;
+}
+
+.transpcss {
+	color: whitesmoke;
+	font-size: 25px;
+}
+
+.transphtml {
+	color: whitesmoke;
+	font-size: 25px;
+}
+
+.imghtml {
+	border-radius: 25px;
+}
