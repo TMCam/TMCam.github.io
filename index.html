@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="img/cinema.ico">
+	<title>Cinéma</title>
+</head>
+<body class="html">
+	<header id="bg">
+		<nav class="wrapper">
+			<ul>
+				<li>
+					<a href="">Accueil</a>
+				</li>
+				<li>
+					<p class="une">A la une</p>
+					<ul class="menu">
+						<li class="int">
+							<a href="">Interstellar</a>
+						</li>
+						<li class="dja">
+							<a href="/mathis/index.html">Django</a>
+						</li>
+						<li class="ava">
+							<a href="">Avatar</a>
+						</li>
+						<li class="ric">
+							<a href="/cameron2/index.html">Rick et Morty</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="register/index.html" id="sign">Inscription</a>
+				</li>
+				<li>
+					<a href="" onclick="del()" class="pavu" id="la">Déconnexion</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<p class="affiche">Nos Films et Séries</p>
+	<div class="film">
+		
+    <div class="flashlight"></div>
+    	<div class="aff">
+			<img class="avatar" src="img/avataraff.jpg" onmouseenter="avatar()">
+		</div>
+
+		<div class="aff">
+			<img class="interstellar" src="img/Interstellaraff.jpg" onmouseenter="interstellar()">
+		</div>
+
+		<div class="aff">
+			<a href="mathis/index.html"><img class="django" src="img/djangoaff.jpg" onmouseenter="django()"></a>
+		</div>
+
+		<div class="aff">
+			<a href="cameron2/index.html"><img class="rick" src="img/rickaff.jpg" onmouseenter="rick()"></a>
+		</div>
+
+  </div>
+
+	<footer>
+		<p onclick="easter()">© · 2022 · Designed and Developed by Cameron Payet</p>
+	</footer>
+	<script src="js/app.js"></script>
+</body>
+</html>

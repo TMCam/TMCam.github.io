@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('font/roboto-regular-webfont.woff2') format('woff2'),
+         url('font/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+body {
+	background: black;
+	background-size: 110%;
+	background-position: 50% 0%;
+	transition: .2s;
+}
+
+.grey {
+	background: #222;
+}
+
+.logo {
+	width: 250px;
+	animation: slide-up .8s ease;
+}
+
+.acceuil, #sign {
+	animation: slide-up .7s ease;
+}
+
+header nav.wrapper {
+  display: inline-block;
+}
+
+header {
+	left: 35%;
+	top: 0;
+	animation: slide-up .5s ease;
+	user-select: none;
+	position: fixed;
+	background-color: black;
+	border-radius: 0 0 35px 35px;
+	z-index: 1;
+}
+
+header p {
+	font-family: robotoregular, sans-serif;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.logo, .wrapper {
+	margin-top: 20px;
+}
+
+header img.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header li {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+.acceuil {
+	text-decoration: none;
+}
+
+header li a, .ins, .une {
+	display: block;
+	padding: 20px;
+	color: whitesmoke;
+	font-family: robotoregular, sans-serif;
+	font-size: 30px;
+	transition: 0.35s;
+	border-radius: 10px;
+}
+
+header li:hover .menu {
+	transition: 0.35s;
+	display: block;
+}
+
+header li:hover .une{
+	background-color: black;
+	border-radius: 10px 10px 0 0;
+}
+
+.menu {
+	display: none;
+	position: absolute;
+	background-color: black;
+	color: whitesmoke;
+	width: 200px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.menu p {
+	cursor: pointer;
+}
+
+.morty {
+	width: 650px;
+	margin-left: -100px;
+	margin-top: 150px;
+	user-select: none;
+	animation: slide-left .5s ease;
+}
+
+.rick {
+	width: 650px;
+	margin-left: 0px;
+	user-select: none;
+	animation: slide-right .5s ease;
+}
+
+.premier {
+	color: whitesmoke;
+	font-size: 30px;
+	text-align: center;
+	font-family: robotoregular, sans-serif;
+	line-height: 1.3;
+	animation: fade 1.8s ease;
+}
+
+.rickmorty {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 120px;
+	background-image: url(https://cdn.wallpapersafari.com/33/7/ZmRcgk.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.zoom {
+	height: 194px;
+	width: 130px;
+	overflow: hidden;
+}
+
+.zoom img {
+	width: 130px;
+	transition: transform .5s ease;
+}
+
+.zoom:hover img {
+	transform: scale(1.5);
+}
+
+.staff {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-family: robotoregular, sans-serif;
+	font-size: 20px;
+	z-index: -1;
+}
+
+.txtimg {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 400px;
+}
+
+.txtimg img {
+	user-select: none;
+}
+
+.staff {
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.staff.visible {
+	opacity: 1;
+}
+
+.txtimg:hover {
+	text-decoration: underline;
+}
+
+.staff p {
+   margin-top: 10px;
+}
+
+.txtimg p {
+  text-align: center;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.actors {
+	color: white;
+	font-family: robotoregular, sans-serif;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 400px;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.actors.visible {
+	opacity: 1;
+}
+
+.resume {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 120px;
+	background-image: url(https://cdn.wallpapersafari.com/33/7/ZmRcgk.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+.portal img {
+	margin-left: -300px;
+	user-select: none;
+}
+
+.portalR img {
+	margin-left: 100px;
+	margin-right: -300px;
+	user-select: none;
+}
+
+.resume p {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	font-family: robotoregular, sans-serif;
+	line-height: 1.3;
+	animation: fade 1.8s ease;
+	width: 60%;
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+
+footer {
+	bottom: 5px;
+	position: fixed;
+	font-size: 13px;
+	color: whitesmoke;
+}
+
+footer p {
+	font-family: robotoregular, sans-serif;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(-100%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}
+
+@keyframes slide-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+}
+
+@keyframes slide-left {
+  from {
+    transform: translateX(-100%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+}
+
+@keyframes fade {
+	from {
+		opacity: 0%;
+	}
+	to {
+		opacity: 100%;
+	}
+}
