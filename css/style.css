@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Rye&family=Special+Elite&display=swap');
+
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rye-regular {
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* fin des importations */
+.title {
+  font-family: Rye;
+  color: white;
+  font-size: 20px;
+}
+
+header .title {
+  color: rgb(241, 218, 183);
+}
+
+/* section preview */
+.sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+
+  /* glass effect */
+  background: rgba(182, 115, 50, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(109, 68, 28, 0.5);
+}
+
+.sec .title {
+  font-size: 35px;
+}
+
+.divImg {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+}
+
+.sec img {
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: .2s ease-in-out;
+}
+
+.sec .grand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.sec .grand .divImg {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.img-wrapper:hover img {
+  transform: scale(1.1);
+}
+
+.txt {
+  font-family: "Special Elite";
+  font-size: 20px;
+}
+
+.img-wrapper {
+  width: 30%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 1.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.img1 {
+  margin-right: 5%;
+}
+
+.container .txt {
+  margin-left: 5%;
+  text-align: center;
+}
+
+.propos {
+  margin-top: 1.5%;
+}
+
+.secdeux {
+  margin-right: 5%;
+}
+
+.container img {
+  border-radius: 5px;
+  width: 125%;
+}
+
+.img-container {
+  margin-right: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(241, 218, 183);
+}

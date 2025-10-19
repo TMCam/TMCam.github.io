@@ -1,0 +1,17 @@
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+
+    background-image: url('../img/bg.jpg');
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    background-position: top left;
+    background-attachment: fixed;
+
+    user-select: none;
+    pointer-events: none;
+}

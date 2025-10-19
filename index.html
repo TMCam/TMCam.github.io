@@ -1,30 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" href="heart.ico">
-	<title>Lily ?</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/background.css">
+    <title>SAE</title>
 </head>
 <body>
-	<div class="img">
-		<img src="tuve.gif" id="img">
-	</div>
-	<div class="txt">
-		<p id="txt">Veux-tu être ma valentine ?</p>
-	</div>
-	<div class="btn">
-		<button class="oui" onclick="yes()">
-			OUI !
-		</button>
-		<button class="non" onclick="no()">
-			NON
-		</button>
-	</div>
-	<div class="heart">
-		<img src="heart.png">
-	</div>
-	<script src="scipt.js"></script>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo de l'entreprise">
+        </div>
+        <div class="join">
+            <p class="title">Reserve ton aventure !</p>
+        </div>
+
+        <nav class="title">
+            <ul>
+                <li>Accueil</li>
+                <li>Accès rapide
+                    <ul class="Uwrap">
+                        <li><a href="#1">Preview</a></li>
+                        <li><a href="#2">A Propos</a></li>
+                        <li><a href="#3">Bas de page</a></li>
+                    </ul>
+                </li>
+                <li>Actualités</li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="sec" id="1">
+        <div class="grand">
+            <p class="title">Preview</p>
+            <div class="divImg">
+                <div class="img-wrapper">
+                    <img src="img/one.jpg" alt="Aperçu 1 de l'expérience">
+                </div>
+                <div class="img-wrapper">
+                    <img src="img/two.jpg" alt="Aperçu 2 de l'expérience">
+                </div>
+                <div class="img-wrapper">
+                    <img src="img/three.jpg" alt="Aperçu 3 de l'expérience">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sec" id="2">
+        <p class="title propos">A propos</p>
+        <div class="container">
+            <div class="img1">
+                <img src="img/sec1.jpg" alt="Image illustrant la première partie du scénario">
+            </div>
+            <p class="txt">Sortis de prison, 
+                vous et votre équipe êtes bien décidés à reprendre votre carrière là où elle s'était arrêtée :
+                 au sommet. Votre cible ? Une banque ultra-sécurisée. Heureusement,
+                  votre ancien complice, jadis employé sur place, a laissé des indices
+                   précieux pour préparer le terrain. Suivez ses traces pour vous infiltrer 
+                   dans les lieux. Entre la discrétion et la ruse, le temps presse pour trouver 
+                   les outils et les accès qui vous mèneront à la chambre forte.
+
+            </p>
+        </div>
+    </div>
+
+    <div class="sec">
+        <div class="container">
+            <p class="txt secdeux">Sortis de prison, vous et votre équipe êtes bien décidés
+                 à reprendre votre carrière là où elle s'était arrêtée : au sommet. Votre cible ?
+                  Une banque ultra-sécurisée. Heureusement, votre ancien complice, jadis employé
+                   sur place, a laissé des indices précieux pour préparer le terrain. Suivez ses traces
+                    pour vous infiltrer dans les lieux. Entre la discrétion et la ruse, le temps presse
+                     pour trouver les outils et les accès qui vous mèneront à la chambre forte.</p>
+                <div class="img-container">
+                    <img src="img/pres2.jpg" alt="Image illustrant la seconde partie du scénario">
+                </div>
+            </div>
+    </div>
+
+    <div class="bg"></div>
+
+    <footer class="footer" id="3">
+            <div class="content">
+                <div class="elem">
+                    <h3>Nous Trouver</h3>
+                    <p>10, chemin de traverse<br>10001, Listenbourg</p>
+                    <p>Tél : 911</p>
+                    <p>gmail@com.escapeGame</p>
+                </div>
+
+                <div class="elem">
+                    <h3>Liens Rapides</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#" class="btn">Réserver</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 - Tous droits réservés - Mayeul - Tiann - Lilou - Cameron</p>
+            </div>
+        </footer>
 </body>
 </html>
