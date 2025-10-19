@@ -124,3 +124,7 @@ a {
   text-decoration: none;
   color: rgb(241, 218, 183);
 }
+
+:target {
+    scroll-margin-top: 11rem;
+}
