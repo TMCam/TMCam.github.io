@@ -5,13 +5,15 @@ html {
 
 header {
     display: flex;
+    position: sticky;
+    top: 0;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     height: 11rem;
     padding: 1rem;
     box-sizing: border-box;
-    position: relative;
+    z-index: 100;
 }
 
 .join {
